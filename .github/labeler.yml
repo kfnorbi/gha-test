@@ -1,11 +1,9 @@
 path0:
   - changed-files:
     - any-glob-to-any-file: "path0/**"
-    #    head-branch: [ "^ALMA-" ]
-    base-branch: 'main'
+    base-branch: 'mainasd'
 
 path1:
   - changed-files:
     - any-glob-to-any-file: "path1/**"
-    head-branch: [ "^ALMA-" ]
     base-branch: 'main'
