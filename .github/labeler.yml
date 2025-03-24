@@ -1,9 +1,4 @@
-path0:
-  - changed-files:
-    - any-glob-to-any-file: "path0/**"
-    base-branch: 'mainasd'
-
 path1:
   - changed-files:
-    - any-glob-to-any-file: "path1/**"
-    base-branch: 'main'
+    - any-glob-to-any-file: 'path1/**'
+      any-globs-to-all-files: '!path1/alma/**'
