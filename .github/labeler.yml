@@ -1,3 +1,5 @@
 path1:
-  - changed-files:
-    - any-glob-to-any-file: 'path1/![alma]**'
+  - all:
+    - changed-files:
+      - any-glob-to-any-file: 'path1/**'
+      - all-globs-to-all-files: '!path1/alma/**'
